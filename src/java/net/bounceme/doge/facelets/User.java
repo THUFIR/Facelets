@@ -18,6 +18,7 @@ public class User implements Serializable {
     private String cn = User.class.getCanonicalName();
     private String myName = "thufir";
     private String myId = "fdjkl532434";
+    private String nav = "response";
 
     public User() {
         out.println(cn);
@@ -36,7 +37,7 @@ public class User implements Serializable {
 
     public String getResponse() {
         if (true) {
-            return "yes";
+            return "welcome " + user;
         } else {
             return "no";
         }
@@ -56,5 +57,9 @@ public class User implements Serializable {
 
     public void setMyId(String myId) {
         this.myId = myId;
+    }
+
+    public String nav() {
+        return nav;
     }
 }

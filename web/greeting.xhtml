@@ -5,7 +5,13 @@
     <ui:define name="left">
         <ui:include src="/WEB-INF/includes/menu.xhtml" />
     </ui:define>
-    <ui:define name="content">
+    <ui:define name="top">
+        <ui:include src="/WEB-INF/includes/user.xhtml" />
+    </ui:define>    <ui:define name="bottom">
+        <ui:include src="/WEB-INF/includes/about.xhtml" />
+    </ui:define>    <ui:define name="content">
         <ui:include src="/WEB-INF/includes/login.xhtml" />
+    </ui:define>    <ui:define name="right">
+        <ui:include src="/WEB-INF/includes/detail.xhtml" />
     </ui:define>
 </ui:composition>
