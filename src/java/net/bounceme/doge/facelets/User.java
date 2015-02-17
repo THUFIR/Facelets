@@ -19,6 +19,7 @@ public class User implements Serializable {
     private String myName = "thufir";
     private String myId = "fdjkl532434";
     private String nav = "response";
+    private boolean auth = false;
 
     public User() {
         out.println(cn);
@@ -36,7 +37,9 @@ public class User implements Serializable {
     }
 
     public String getResponse() {
-        if (true) {
+        auth = user != null;
+        if (auth) {
+            nav = "welcome";
             return "welcome " + user;
         } else {
             return "no";
@@ -59,7 +62,12 @@ public class User implements Serializable {
         this.myId = myId;
     }
 
-    public String nav() {
+    public String getNav() {
         return nav;
     }
+
+    public void setNav(String nav) {
+        this.nav = nav;
+    }
+
 }
