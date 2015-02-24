@@ -1,4 +1,4 @@
-package net.bounceme.dur.facelets.exceptios;
+package net.bounceme.doge.facelets.exceptios;
 
 public class RollbackFailureException extends Exception {
     public RollbackFailureException(String message, Throwable cause) {

@@ -1,4 +1,4 @@
-package net.bounceme.dur.facelets.exceptios;
+package net.bounceme.doge.facelets.exceptios;
 
 import java.util.ArrayList;
 import java.util.List;

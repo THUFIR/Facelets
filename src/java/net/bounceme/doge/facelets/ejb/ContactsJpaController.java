@@ -5,8 +5,8 @@
  */
 package net.bounceme.doge.facelets.ejb;
 
-import net.bounceme.dur.facelets.exceptios.NonexistentEntityException;
-import net.bounceme.dur.facelets.exceptios.RollbackFailureException;
+import net.bounceme.doge.facelets.exceptios.NonexistentEntityException;
+import net.bounceme.doge.facelets.exceptios.RollbackFailureException;
 import java.io.Serializable;
 import java.util.List;
 import javax.persistence.EntityManager;

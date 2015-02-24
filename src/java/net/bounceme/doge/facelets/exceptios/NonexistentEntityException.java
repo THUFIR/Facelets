@@ -1,4 +1,4 @@
-package net.bounceme.dur.facelets.exceptios;
+package net.bounceme.doge.facelets.exceptios;
 
 public class NonexistentEntityException extends Exception {
     public NonexistentEntityException(String message, Throwable cause) {
